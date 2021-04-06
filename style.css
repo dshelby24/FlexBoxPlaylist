@@ -11,23 +11,32 @@ body{
     width: 100%;
     max-width: 1200px;
 }
-#blocks{
-    display:flex;
-    margin: 10px;
-    justify-content: space-between;
+
+.flex-container{
+ display: flex;
+ background: white;
+ flex-wrap: wrap;
+ flex-flow: row;
+ justify-content: flex-start;
+ height: 800px
 }
 
-#blocks div{
-    flex: 0 0 100px;
-    padding: 40px 0;
-    text-align: center;
-    background: chocolate;
+.box{
+    height: 100px;
+    flex: 0 0 200px;
 
 }
 
-.one{order: 3};
-.two{order: 2;}
-.three{order: 1;}
-.four{order: 0;}
+.one{
+    background: red;
+    
+}
+.two{
+    background: blue;
+     
 
+    }
 
+.three {
+    background: green;
+}
